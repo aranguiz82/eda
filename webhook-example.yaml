@@ -15,7 +15,7 @@
     - name: Say Hello
       condition: event.payload.message == "Ansible is super cool!"
 
-  ## Define the action we should take should the condition be met
+  ## Define the action we should take should the conditi
 
       action:
         run_playbook:
